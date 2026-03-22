@@ -148,6 +148,15 @@ public class AlarmAlertActivity extends Activity implements OnClickListener, OnD
         finish();
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        //确保 Activity 销毁时 MediaPlayer 资源被释放，防止内存泄漏
+        stopAlarmSound();
+    }
+
+
     private void stopAlarmSound() {
         if (mPlayer != null) {
             mPlayer.stop();
