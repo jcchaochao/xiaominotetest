@@ -115,7 +115,15 @@
     <string name="preferences_toast_cannot_change_account">Cannot change the account because sync is in progress</string>
     <string name="preferences_toast_success_set_accout">%1$s has been set as the sync account</string>
     <string name="preferences_bg_random_appear_title">New note background color random</string>
-
+    <string name="note_verify_password_title">请输入便签密码</string>
+    <string name="note_input_password_hint">请输入密码</string>
+    <string name="error_password_empty">密码不能为空</string>
+    <string name="error_password_wrong">密码错误</string>
+    <string name="menu_set_password">设置便签访问密码</string>
+    <string name="menu_delete_password">解除便签访问密码</string>
+    <string name="info_go_to_set_password">正在前往设置密码…</string>
+    <string name="info_password_deleted">密码已解除</string>
+    <string name="info_password_set_success">密码设置成功</string>
     <string name="button_delete">Delete</string>
     <string name="call_record_folder_name">Call notes</string>
     <string name="hint_foler_name">Input name</string>
